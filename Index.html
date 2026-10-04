@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSL Portal</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 30px 25px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    h2 {
+      color: #1e3c72;
+      margin-bottom: 8px;
+      font-size: 22px;
+    }
+    p {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin-bottom: 15px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+    }
+    .btn-permanent {
+      background-color: #0b5ed7;
+      color: white;
+    }
+    .btn-contract {
+      background-color: #f8f9fa;
+      color: #333;
+      border: 2px solid #dee2e6;
+    }
+    .btn:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>CSL Portal</h2>
+    <p>തുടരുന്നതിനായി നിങ്ങളുടെ കാറ്റഗറി തിരഞ്ഞെടുക്കുക</p>
+
+    <!-- പെർമനന്റ് എംപ്ലോയീസ് ക്ലിക്ക് ചെയ്യുമ്പോൾ permanent.html പേജിലേക്ക് പോകും -->
+    <a href="permanent.html" class="btn btn-permanent">Permanent Employees</a>
+
+    <!-- കമ്പനി ഓൺ കോൺട്രാക്ട് ക്ലിക്ക് ചെയ്യുമ്പോൾ contract.html പേജിലേക്ക് പോകും -->
+    <a href="contract.html" class="btn btn-contract">Company Own Contract</a>
+  </div>
+
+</body>
+</html>
